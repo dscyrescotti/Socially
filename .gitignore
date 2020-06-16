@@ -36,4 +36,5 @@ Carthage/Build
 #
 Pods/
 *.xcworkspace
-SociallyDemo/credentials.plist
+credentials.plist
+_Pods.xcodeproj
