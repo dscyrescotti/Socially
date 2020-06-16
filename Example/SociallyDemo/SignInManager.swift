@@ -34,8 +34,6 @@ class SignInManager: ObservableObject {
             self.user = User(name: profile.name, email: profile.email)
             
             print("Sign In")
-            print(user.authentication.accessToken as String)
-            print(user.authentication.accessTokenExpirationDate as Date)
         }) { _, _, _ in
             self.user = nil
         }

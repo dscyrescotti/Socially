@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SociallyDemo' do
-  pod 'Socially/Google', :path => '../'
+  pod 'Socially', :path => '../'
 
   target 'Socially_Tests' do
     inherit! :search_paths
