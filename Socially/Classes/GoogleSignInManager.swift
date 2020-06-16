@@ -15,6 +15,7 @@ public typealias GoogleAuthentication = GIDAuthentication
 
 ///This class signs the user in with Google.
 public final class GoogleSignInManager {
+    
     /// This is the instance of `GoogleSignInDelegate` that receives a refresh token or error after signing in.
     private var googleDelegate: GoogleSignInDelegate = GoogleSignInDelegate()
     
@@ -88,11 +89,17 @@ public final class GoogleSignInManager {
 
 /// This class is the delegate of `Google`
 fileprivate final class GoogleSignInDelegate: NSObject, GIDSignInDelegate {
+    
+    /// This closure will perform after signing the user in.
     var signInCompletion: GoogleSignInHandler?
+    
+    /// This closure will perform after disconnecting.
     var disconnectCompletion: GoogleSignInHandler?
+    
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         signInCompletion?(signIn, user, error)
     }
+    
     func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
         disconnectCompletion?(signIn, user, error)
     }
