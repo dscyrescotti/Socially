@@ -17,6 +17,7 @@
 		E6FCC7802498A92900AFA715 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FCC77F2498A92900AFA715 /* Preview Assets.xcassets */; };
 		E6FCC7832498A92900AFA715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FCC7812498A92900AFA715 /* LaunchScreen.storyboard */; };
 		E6FCC78B2498AEAF00AFA715 /* SignInManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCC78A2498AEAF00AFA715 /* SignInManager.swift */; };
+		E6FCC78F2498B5C200AFA715 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6FCC78E2498B5C200AFA715 /* credentials.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		E6FCC7822498A92900AFA715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6FCC7842498A92900AFA715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6FCC78A2498AEAF00AFA715 /* SignInManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInManager.swift; sourceTree = "<group>"; };
+		E6FCC78E2498B5C200AFA715 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				E6FCC77C2498A92900AFA715 /* Assets.xcassets */,
 				E6FCC7812498A92900AFA715 /* LaunchScreen.storyboard */,
 				E6FCC7842498A92900AFA715 /* Info.plist */,
+				E6FCC78E2498B5C200AFA715 /* credentials.plist */,
 				E6FCC77E2498A92900AFA715 /* Preview Content */,
 			);
 			path = SociallyDemo;
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6FCC7832498A92900AFA715 /* LaunchScreen.storyboard in Resources */,
+				E6FCC78F2498B5C200AFA715 /* credentials.plist in Resources */,
 				E6FCC7802498A92900AFA715 /* Preview Assets.xcassets in Resources */,
 				E6FCC77D2498A92900AFA715 /* Assets.xcassets in Resources */,
 			);

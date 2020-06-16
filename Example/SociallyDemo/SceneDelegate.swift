@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftUI
+import Socially
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -26,6 +27,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             window.rootViewController = UIHostingController(rootView: contentView)
+            GoogleSignInManager.presentingViewController(window.rootViewController)
             self.window = window
             window.makeKeyAndVisible()
         }
