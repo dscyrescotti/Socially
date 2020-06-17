@@ -20,6 +20,10 @@ Socially provides the easiest way to integrate Social Sign-In in iOS app using S
       google.source_files = 'Socially/Classes/GoogleSignInManager.swift'
       google.dependency 'GoogleSignIn', '~> 5.0'
   end
+  s.subspec 'Facebook' do |facebook|
+      facebook.source_files = 'Socially/Classes/FacebookSignInManager.swift'
+      facebook.dependency 'FBSDKLoginKit', '~> 7.0'
+  end
   # s.resource_bundles = {
   #   'Socially' => ['Socially/Assets/*.png']
   # }

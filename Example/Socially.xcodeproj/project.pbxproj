@@ -10,6 +10,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		62F8A9BBC521E6CE8120FAAD /* Pods_Socially_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78A0F1215576FF970D4D00 /* Pods_Socially_Tests.framework */; };
 		B8C4AEBB52D582DB88D13F8C /* Pods_SociallyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AA01BB57F7EB3428538C45 /* Pods_SociallyDemo.framework */; };
+		E6010356249A0ABB00F74881 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6010355249A0ABB00F74881 /* credentials.plist */; };
 		E6FCC7772498A92700AFA715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCC7762498A92700AFA715 /* AppDelegate.swift */; };
 		E6FCC7792498A92700AFA715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCC7782498A92700AFA715 /* SceneDelegate.swift */; };
 		E6FCC77B2498A92700AFA715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCC77A2498A92700AFA715 /* ContentView.swift */; };
@@ -17,7 +18,6 @@
 		E6FCC7802498A92900AFA715 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FCC77F2498A92900AFA715 /* Preview Assets.xcassets */; };
 		E6FCC7832498A92900AFA715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FCC7812498A92900AFA715 /* LaunchScreen.storyboard */; };
 		E6FCC78B2498AEAF00AFA715 /* SignInManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCC78A2498AEAF00AFA715 /* SignInManager.swift */; };
-		E6FCC78F2498B5C200AFA715 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6FCC78E2498B5C200AFA715 /* credentials.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +33,7 @@
 		C5B238405E4C42435E62BAD8 /* Pods-SociallyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociallyDemo.release.xcconfig"; path = "Target Support Files/Pods-SociallyDemo/Pods-SociallyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C97E0F4F2C53C04DF48A837F /* Pods-SociallyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociallyDemo.debug.xcconfig"; path = "Target Support Files/Pods-SociallyDemo/Pods-SociallyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CA1BA1999A649EE5806F8F1A /* Socially.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Socially.podspec; path = ../Socially.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6010355249A0ABB00F74881 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		E6FCC7742498A92700AFA715 /* SociallyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SociallyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FCC7762498A92700AFA715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6FCC7782498A92700AFA715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		E6FCC7822498A92900AFA715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6FCC7842498A92900AFA715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6FCC78A2498AEAF00AFA715 /* SignInManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInManager.swift; sourceTree = "<group>"; };
-		E6FCC78E2498B5C200AFA715 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 				E6FCC77C2498A92900AFA715 /* Assets.xcassets */,
 				E6FCC7812498A92900AFA715 /* LaunchScreen.storyboard */,
 				E6FCC7842498A92900AFA715 /* Info.plist */,
-				E6FCC78E2498B5C200AFA715 /* credentials.plist */,
+				E6010355249A0ABB00F74881 /* credentials.plist */,
 				E6FCC77E2498A92900AFA715 /* Preview Content */,
 			);
 			path = SociallyDemo;
@@ -252,7 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6FCC7832498A92900AFA715 /* LaunchScreen.storyboard in Resources */,
-				E6FCC78F2498B5C200AFA715 /* credentials.plist in Resources */,
+				E6010356249A0ABB00F74881 /* credentials.plist in Resources */,
 				E6FCC7802498A92900AFA715 /* Preview Assets.xcassets in Resources */,
 				E6FCC77D2498A92900AFA715 /* Assets.xcassets in Resources */,
 			);
@@ -313,12 +313,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SociallyDemo/Pods-SociallyDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 			);

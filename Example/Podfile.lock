@@ -4,6 +4,16 @@ PODS:
     - AppAuth/ExternalUserAgent (= 1.4.0)
   - AppAuth/Core (1.4.0)
   - AppAuth/ExternalUserAgent (1.4.0)
+  - FBSDKCoreKit (7.0.1):
+    - FBSDKCoreKit/Basics (= 7.0.1)
+    - FBSDKCoreKit/Core (= 7.0.1)
+  - FBSDKCoreKit/Basics (7.0.1)
+  - FBSDKCoreKit/Core (7.0.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (7.0.1):
+    - FBSDKLoginKit/Login (= 7.0.1)
+  - FBSDKLoginKit/Login (7.0.1):
+    - FBSDKCoreKit (~> 7.0.1)
   - GoogleSignIn (5.0.2):
     - AppAuth (~> 1.2)
     - GTMAppAuth (~> 1.0)
@@ -16,15 +26,22 @@ PODS:
   - GTMSessionFetcher/Core (1.4.0)
   - GTMSessionFetcher/Full (1.4.0):
     - GTMSessionFetcher/Core (= 1.4.0)
+  - Socially (0.1.0):
+    - Socially/Facebook (= 0.1.0)
+    - Socially/Google (= 0.1.0)
+  - Socially/Facebook (0.1.0):
+    - FBSDKLoginKit (~> 7.0)
   - Socially/Google (0.1.0):
     - GoogleSignIn (~> 5.0)
 
 DEPENDENCIES:
-  - Socially/Google (from `../`)
+  - Socially (from `../`)
 
 SPEC REPOS:
   trunk:
     - AppAuth
+    - FBSDKCoreKit
+    - FBSDKLoginKit
     - GoogleSignIn
     - GTMAppAuth
     - GTMSessionFetcher
@@ -35,11 +52,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  FBSDKCoreKit: 9cc05bec0568a5955c82eb59ae95da0fe125b88d
+  FBSDKLoginKit: ecc6fd43c81b60f5b5e9388d58f137aff4a5d00b
   GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
   GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
-  Socially: 437a7586bdb9237d7722f719c978fddb5e0788ca
+  Socially: 017834821f62903756e1c83b5bb0e7df999caa02
 
-PODFILE CHECKSUM: 6950f9e26cda304eea0c3a523951ecd0bbe5b430
+PODFILE CHECKSUM: 994682263a710b45a2e6a939aae07378f90f20fa
 
 COCOAPODS: 1.9.3
