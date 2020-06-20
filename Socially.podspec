@@ -9,7 +9,7 @@ Socially provides the easiest way to integrate Social Sign-In in iOS app using S
   s.homepage         = 'https://github.com/phoelapyae69/Socially'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'phoelapyae69' => 'phoelapyayt7@gmail.com' }
+  s.author           = { 'Phoe Lapyae' => 'phoelapyayt7@gmail.com' }
   s.source           = { :git => 'https://github.com/phoelapyae69/Socially.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/phoelapyaeX_X'
   s.ios.deployment_target = '13.0'
