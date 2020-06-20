@@ -37,4 +37,8 @@ Carthage/Build
 Pods/
 *.xcworkspace
 credentials.plist
+<<<<<<< HEAD
 _Pods.xcodeproj
+=======
+_Pods.xcodeproj
+>>>>>>> 7b49984f76946a0d9e9786e215352f03074d543f
