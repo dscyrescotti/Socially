@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Socially'
-  s.version          = '1.0.0'
+  s.version          = '0.0.2'
   s.summary          = 'Social Sign-In for SwiftUI'
   s.description      = <<-DESC
 Socially provides the easiest way to integrate Social Sign-In in iOS app using SwiftUI
