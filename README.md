@@ -82,9 +82,7 @@ After launching the app, you can sign in silently with previous token.
 
 ## Author
 
-Phoe Lapyae 
-
-[![Follow me](https://img.icons8.com/fluent/30/000000/twitter.png)](https://twitter.com/phoelapyaeX_X)
+**Dscyre Scotti** ([@dscyrescotti](https://twitter.com/dscyrescotti))
 
 
 ## License
